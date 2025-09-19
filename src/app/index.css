@@ -1,0 +1,107 @@
+.Container {
+  width: 480px;
+  height: 655px;
+  background-color: white;
+  border-radius: 10px;
+}
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.pine-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+.join {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 1000;
+}
+.please {
+  color: #8e8e8e;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.first {
+  color: black;
+  margin-left: 20px;
+  font-weight: 1000;
+  margin-top: 28px;
+}
+.task {
+  width: 450px;
+  height: 40px;
+  border: solid #e4e4e7;
+  border-radius: 8px;
+  color: #71717a;
+  margin-left: 20px;
+}
+.Continue {
+  color: white;
+  background-color: black;
+  width: 416px;
+  height: 44px;
+  margin-left: 20px;
+  margin-top: 160px;
+  border-radius: 8px;
+}
+.task.error {
+  border-color: red;
+  box-shadow: 0 0 5px red;
+}
+.input-error {
+  border: 1px solid red;
+  width: 450px;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.errormassage {
+  margin-left: 20px;
+}
+.continue-2 {
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  width: 280px;
+  height: 44px;
+}
+.back {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  height: 44px;
+  width: 128px;
+  border: 1px solid #cbd5e1;
+}
+.continue2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 82px;
+}
+.Add {
+  width: 416px;
+  height: 208px;
+  background-color: #f8f8f8;
+  margin-left: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Succes {
+  width: 480px;
+  height: 193px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 700px;
+}
+.Set {
+  margin-top: 20px;
+}

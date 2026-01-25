@@ -6,7 +6,7 @@ import { StepTwo } from "./_features/StepTwo";
 import { StepThree } from "./_features/StepThree";
 import { Succes } from "./_features/Succes";
 export default function Home() {
-  const [step, setStep] = useState(3);
+  const [step, setStep] = useState(1);
 
   const handleNextStep = () => {
     setStep(step + 1);
